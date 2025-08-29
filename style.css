@@ -113,12 +113,12 @@ input[type='file'] {
     max-width: 100%;
 }
 @font-face {  
-     font-family: "TTLakesMedium";  
+
+    font-family: "TTLakesMedium";  
     src: url("./fonts/TTLakes-Medium.eot");  
     src: url("./fonts/TTLakes-Medium.eot?#iefix")format("embedded-opentype"),  
     url("./fonts/TTLakes-Medium.woff") format("woff"),  
-    url("./fonts/TTLakes-Medium.ttf") format("truetype");   
-    
+    url("./fonts/TTLakes-Medium.ttf") format("truetype"); 
     font-style: normal;  
     font-weight:400 500 700; 
 } 
