@@ -113,11 +113,11 @@ input[type='file'] {
     max-width: 100%;
 }
 @font-face {  
-    font-family: "TTLakesMedium";  
-    src: url("./fonts/TTLakesMedium/TTLakesMedium.eot");  
-    src: url("./fonts/TTLakesMedium/TTLakesMedium.eot?#iefix")format("embedded-opentype"),  
-    url("./fonts/TTLakesMedium/TTLakesMedium.woff") format("woff"),  
-    url("./fonts/TTLakesMedium/TTLakesMedium.ttf") format("truetype");  
+     font-family: "TTLakesMedium";  
+    src: url("./fonts/TTLakes-Medium.eot");  
+    src: url("./fonts/TTLakes-Medium.eot?#iefix")format("embedded-opentype"),  
+    url("./fonts/TTLakes-Medium.woff") format("woff"),  
+    url("./fonts/TTLakes-Medium.ttf") format("truetype");   
     
     font-style: normal;  
     font-weight:400 500 700; 
