@@ -1,0 +1,35 @@
+/* icon list */
+
+.icon__list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.icon__img {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.icon__img--call{  
+   background-image: url("../../image/icon/call.png");
+}
+
+.icon__img--message{  
+   background-image: url("../../image/icon/message.png");
+}
+
+.icon__img--people{  
+   background-image: url("../../image/icon/people.png");
+}
+
+.icon__img--repair{  
+   background-image: url("../../image/icon/repair.png");
+}
+
+.icon__img--checkStatus{  
+   background-image: url("../../image/icon/checkStatus.png");
+}
+
+

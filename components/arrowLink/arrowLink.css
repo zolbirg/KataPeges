@@ -1,0 +1,23 @@
+/* arrow-link */
+.arrow-link {
+    margin-bottom: 20px;
+}
+
+.arrow-link__link{
+    display: flex;
+    margin-left: 10px;
+}
+
+.arrow-link__image{
+    width: 12px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.arrow-link__text {
+    font-family: TT Lakes;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-color-black);
+
+}
