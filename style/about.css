@@ -1,0 +1,57 @@
+/* about ------------------------ */
+.about{
+    display: grid;
+    
+}
+.about__block--text {
+    margin-right: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.about__block--text > p {
+    font-family: TT Lakes;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+.about__image {
+    width: 95%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (min-width: 320px) { 
+    .about{
+    grid-template-columns: 1fr;
+    }
+    .about__text {
+    width: 280px;
+    height: 90px;
+    
+}
+}
+
+@media (min-width: 768px) {
+    .about{
+         
+    grid-template-columns: 1fr 1fr;
+
+    }
+    .about__text {
+    width: 312px;
+    height: 160px;
+   
+}
+
+}
+
+@media (min-width: 1120px) {
+  .about__text {
+    width: 490px;
+    height: 160px;
+  }
+}
