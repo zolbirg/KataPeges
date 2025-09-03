@@ -1,0 +1,18 @@
+.slide-menu {
+    display: flex;
+    align-items: start;
+    width: 90%;
+    margin-bottom: 1rem;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+
+
+@media (min-width: 1120px) {
+    
+    .slide-menu {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    }

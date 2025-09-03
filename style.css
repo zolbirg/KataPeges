@@ -1,0 +1,55 @@
+
+@import url("./components/button/button.css");
+@import url("./components/logo/logo.css");
+@import url("./components/slideMenu/slideMenu.css");
+@import url("./components/title/title.css");
+@import url("./components/card/card.css");
+
+
+
+/* page */
+@import url("./style/resetStyle.css");
+@import url("./style/fonts.css");
+@import url("./style/header.css");
+@import url("./style/about.css");
+@import url("./style/brand.css");
+@import url("./style/service.css");
+
+
+:root {
+    --bg-color-gray: #F8F8F8;
+
+    --color-Pink: #FF3E79;
+    --color-Gray: #EAEAEA;
+    --color-Gray-Dark: #6B7B84;
+    --color-salat: #41F6D7;
+    --color-salat-last: #B8FFEC;
+    
+    --text-color-grey: #7E7E82;
+    --text-color-black: #1B1C21;
+
+    --text-regular:"TTLakesRegular";
+    --text-Medium:"TTLakesMedium";
+    --text-Compressed-Medium:"TT Lakes Compressed";
+    --text-Bold:"TTLakesBold";
+}
+ 
+body{
+   font-family: var(--text-regular);
+   font-size: 20px;
+   font-weight: 500;
+   color: var(--text-color-black);
+}
+
+/* Main Layout ------------------------ */
+.main-Layout {
+    background-color: var(--bg-color-gray);
+}
+.section {
+    margin: 0 20px;  
+}
+
+
+
+
+
