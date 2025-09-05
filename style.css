@@ -1,7 +1,7 @@
 
 @import url("./components/button/button.css");
 @import url("./components/logo/logo.css");
-@import url("./components/slideMenu/slideMenu.css");
+@import url("./components/menu/menu.css");
 @import url("./components/title/title.css");
 @import url("./components/card/card.css");
 
@@ -45,7 +45,7 @@ body{
 .main-Layout {
     background-color: var(--bg-color-gray);
 }
-.section {
+.container {
     margin: 0 20px;  
 }
 
