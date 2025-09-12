@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Webpack Static Site Starter Kit
 
 ## Требования к проекту
@@ -124,3 +125,6 @@ yarn deploy
 ```
 
 Основано на [этой статье](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e)
+=======
+https://zolbirg.github.io/KataPeges/
+>>>>>>> 50dd18dbc4e0503f8ee51a53668350fa961312d1
