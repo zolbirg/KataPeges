@@ -1,0 +1,175 @@
+.btn:hover {
+  transition: transform 0.2s ease;
+  transform: scale(110%);
+}
+
+.btn--ml {
+  margin-left: 1rem;
+}
+
+.btn--mr {
+  margin-right: 1rem;
+}
+
+.btn__img {
+  width: 7px;
+  height: 12px;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+/* arrow */
+.btn__img--arrowPink {
+  background-image: url("../../img/icon/arrowPink.png");
+}
+
+.btn--arrow {
+  display: flex;
+  margin-bottom: 1rem;
+  font-family: var(--text-regular);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--text-color-black);
+}
+
+.btn--arrow::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  margin-right: 10px;
+  background-size: 0.8rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../../img/icon/arrowGreen.png");
+}
+
+/* circle */
+.btn--circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.btn--oval {
+  border-radius: 3rem;
+}
+
+.btn--oval-arrow {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  max-width: 170px;
+  font-family: var(--text-Bold);
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 24px;
+  letter-spacing: -0.15px;
+  text-align: left;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn--oval-arrow::after {
+  content: "";
+  margin-left: 1rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-size: 0.6rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../../img/icon/arrowWhite.png");
+}
+
+.btn--pink {
+  background: var(--color-Pink);
+}
+
+.btn--bdr-pink {
+  border: 2px solid var(--color-Pink);
+}
+
+.btn--bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.btn--bg-size--m {
+  background-size: 1.2rem;
+}
+
+.btn--bg-size--s {
+  background-size: 0.6rem;
+}
+
+.btn--call {
+  background-image: url("../../img/icon/call.png");
+}
+
+.btn--message {
+  background-image: url("../../img/icon/message.png");
+}
+
+.btn--people {
+  background-image: url("../../img/icon/people.png");
+}
+
+.btn--repair {
+  background-image: url("../../img/icon/repair.png");
+}
+
+.btn--checkStatus {
+  background-image: url("../../img/icon/checkStatus.png");
+}
+
+.btn--lupa {
+  background-image: url("../../img/icon/lupa.png");
+}
+
+.btn--exit {
+  background-image: url("../../img/icon/exit.png");
+}
+
+.btn--arrow-pink {
+  background-image: url("../../img/icon/arrowPink.png");
+}
+
+/* burger */
+.btn--burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: var(--color-Pink);
+}
+
+.btn__line--burger {
+  height: 2px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.btn__line--line1 {
+  width: 18px;
+  margin-bottom: 5px;
+}
+
+.btn__line--line2 {
+  width: 10px;
+  margin-bottom: 5px;
+}
+
+.btn__line--line3 {
+  width: 14px;
+}
+
+/* about */
+.btn--theme-about {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  font-family: var(--text-Medium);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--text-color-black);
+}/*# sourceMappingURL=btn.css.map */

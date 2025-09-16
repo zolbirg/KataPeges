@@ -1,0 +1,52 @@
+.table--price {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 3rem;
+}
+
+.table__body--price {
+    background: white;
+}
+
+.table__row--head {
+
+font-family: var(--text-regular);
+font-weight: 500;
+font-size: 1rem;
+line-height: 1rem;
+letter-spacing: 0px;
+color: var(--text-color-grey);
+
+}
+
+.table__row {
+    border-bottom: 1px solid #e8e9eb;
+}
+
+.table__body--price{
+font-family: var(--text-regular);
+font-weight: 400;
+font-size: .8rem;
+line-height: 1.3rem;
+letter-spacing: 0.2px;
+color: var(--text-color-black);
+
+}
+table td {
+    white-space:nowrap ;
+    padding: 2rem .5rem;
+
+}
+.table__repair{
+    width: 60%;
+}
+.table__price{
+    width:25%;
+}
+.table__date{
+    width: 25%;
+    min-width: 73px;
+}
+
+
+

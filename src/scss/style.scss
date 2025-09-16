@@ -1,17 +1,79 @@
-$bgColor: #24292e;
-$text: #fff;
 
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
+@import url("../components/button/btn.scss");
+@import url("../components/logo/logo.scss");
+@import url("../components/menu/menu.scss");
+@import url("../components/title/title.scss");
+@import url("../components/card/card.scss");
+@import url("../components/table/table.scss");
+@import url("../components/input/input.scss");
+
+// /* page */
+@import url("../pageStyle/resetStyle.scss");
+@import url("../pageStyle/fonts.scss");
+
+@import url("../pageStyle/header.scss");
+@import url("../pageStyle/about.scss");
+@import url("../pageStyle/brand.scss");
+@import url("../pageStyle/service.scss");
+@import url("../pageStyle/price.scss");
+@import url("../pageStyle/footer.scss");
+
+@import url("../pageStyle/sideMenu.scss");
+@import url("../pageStyle/modal.scss");
+
+
+:root {
+    --bg-color-gray: #F8F8F8;
+
+    --color-Pink: #FF3E79;
+    --color-Gray: #EAEAEA;
+    --color-Gray-Dark: #6B7B84;
+    --color-salat: #41F6D7;
+    --color-salat-last: #B8FFEC;
+    --color-salat-border: #D9FFF5;
+    --text-color-grey: #7E7E82;
+    --text-color-black: #1B1C21;
+
+    --text-regular: "TTLakesRegular";
+    --text-Medium: "TTLakesMedium";
+    --text-Bold: "TTLakesBold";
 }
 
 body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
+
+    font-family: var(--text-regular);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color-black);
+    background: var(--bg-color-gray);
 }
+
+/* Main  ------------------------ */
+
+.main-Layout {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 1300px;
+    padding: 0 1.2rem;
+    margin: 0 auto;
+    background-color: var(--bg-color-gray);
+}
+
+
+
+
+
+@media (min-width: 320px) {
+   
+}
+
+@media (min-width: 768px) {
+   
+}
+
+@media (min-width: 1120px) {
+    
+}
+
+

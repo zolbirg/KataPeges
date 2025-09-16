@@ -1,0 +1,35 @@
+.price__text {
+    max-width: 400px;
+    margin-bottom: 1rem;
+}
+
+.price__text > p {
+    font-family: var(--text-regular);
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--text-color-black);
+}
+
+.price__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: var(--text-Bold);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: var(--text-color-black);
+}
+.price__link::after{
+    content: "";
+    margin-left: 1rem;
+    width: .7rem;
+    height: .7rem;
+    background-size: .6rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/icon/arrowPink.png")
+}

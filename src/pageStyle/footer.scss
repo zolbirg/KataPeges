@@ -1,0 +1,28 @@
+
+.footer__layout{
+    background: var(--bg-color-gray);
+    margin-top: 3rem;
+}
+.footer__block{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.footer__text  p{
+font-family: var(--text-regular);
+font-weight: 500;
+font-size: .8rem;
+line-height: 16px;
+letter-spacing: 0px;
+ color: var(--text-color-grey);
+}
+.footer__text  a{
+    text-decoration: none;
+}
+
+.footer__text--left{
+text-align: left;
+}
+.footer__text--right{
+text-align: right;
+}

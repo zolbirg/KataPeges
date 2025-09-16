@@ -72,7 +72,7 @@ module.exports = {
       title: 'Webpack 5 Starter',
       template: './src/index.html',
       inject: true,
-      // Убрал minify опции (устаревшие; для минификации используй html-minifier-terser отдельно)
+      
     }),
 
     // Кладем стили в отдельный файл
