@@ -1,21 +1,19 @@
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'vertical',
+// Импортируем Swiper и нужные модули (если используются)
+import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
+
+// Импортируем стили Swiper
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+// Инициализация слайдера
+const swiper = new Swiper('.swiper--brand', {
+  modules: [Navigation, Pagination],
   loop: true,
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
+    dynamicBullets: true,
   },
 });
