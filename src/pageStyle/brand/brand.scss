@@ -7,18 +7,19 @@
 
 }
 
-
-
-@media (min-width: 320px) {
+@media (max-width: 767px) {
     .brand__block {
         display: flex;
         margin: 0 auto;
     }
 
     .swiper--brand {
-        max-width: 320px;
+        width: 90%;
+        max-width: 400px;
     }
-
+    .brand > button{
+        display: none;
+    }
     
 }
 

@@ -1,7 +1,3 @@
-import './brand.scss'
-
-
-const brand__block = document.querySelector('.brand__block')
 
 const Brand320px = `
                     <!-- Slider main container -->
@@ -115,18 +111,32 @@ const Brand720px = `
 
 `
 
+const brand__block = document.querySelector('.brand__block')
+
+let mySwiper = null
+
 // Функция для проверки и добавления контента
 function addContentAtWidth() {
+  if (mySwiper) {
+    mySwiper.destroy(true, true)
+    mySwiper = null
+  }
   // Очищаем контейнер перед добавлением
   brand__block.innerHTML = ''
 
   // Проверяем ширину viewport
   if (window.innerWidth <= 767) {
-    // Добавляем HTML-контент только при 320px
-
     brand__block.innerHTML = Brand320px
+    
+    // Инициализируем swiper--brand 
+    const container = document.querySelector('.swiper--brand')
+    if (container) {
+      import('../../js/swiper.js').then(({ default: initSwiper }) => {
+        mySwiper = initSwiper('brand') // ✅ Теперь передаем 'brand'
+      })
+    }
   } else if (window.innerWidth >= 768) {
-    brand__block.innerHTML = Brand720px
+    brand__block.innerHTML = Brand720px;
   }
 }
 

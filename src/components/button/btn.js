@@ -1,4 +1,3 @@
-import './btn.scss'
 
 const modal = document.querySelector('.modal');
 const sideMenu = document.querySelector('.side-menu');

@@ -1,8 +1,6 @@
 
 .about__block--position {
-    display: grid;
     padding-bottom: 1.5rem;
-
 }
 .about__text {
     margin-right: 1rem;
@@ -34,9 +32,16 @@
 
 
 
-@media (min-width: 320px) {
+@media (max-width: 768px)
+{
     .about__block--position {
+         display: flex;
+        flex-direction: column;
+        align-items: center;
         grid-template-columns: 1fr;
+    }
+    .title .title__text--about{
+       font-size: 1.8rem;
     }
 
     .about__text {
@@ -53,8 +58,10 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) 
+{
     .about__block--position {
+        display: grid;
         grid-template-columns: 1fr 1fr;
 
     }
