@@ -11,7 +11,7 @@ import 'swiper/css/pagination'
 export default function initSwiper(val) {
 
   const container = document.querySelector(`.swiper--${val}`)
-  
+
   if (!container) return null
 
   // Удаление старого Swiper (если существует)
@@ -34,6 +34,18 @@ export default function initSwiper(val) {
       return new Swiper(container, {
         modules: [Navigation, Pagination],
         loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true
+        }
+      })
+    }
+  
+    case 'price': {
+      return new Swiper(container, {
+        modules: [Navigation, Pagination],
+        loop: true,
+        
         pagination: {
           el: '.swiper-pagination',
           dynamicBullets: true

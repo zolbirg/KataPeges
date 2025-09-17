@@ -73,3 +73,4 @@ function sideMenuIsActive(value) {
     sideMenu.classList.remove("open");
   }
 }
+

@@ -3,6 +3,7 @@ import '../scss/style.scss'
 import '../components/button/btn.js'
 import '../pageStyle/brand/brand.js'
 import '../pageStyle/service/service.js'
+import '../pageStyle/price/price.js'
 import './swiper.js'
 
 // /* components */

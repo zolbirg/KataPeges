@@ -93,7 +93,7 @@ function addContentAtWidth() {
     const container = document.querySelector('.swiper--service')
     if (container) {
       import('../../js/swiper.js').then(({ default: initSwiper }) => {
-        mySwiper = initSwiper('service') // ✅ Теперь передаем 'service'
+        mySwiper = initSwiper('service') 
       })
     }
   } else if (window.innerWidth >= 768) {
