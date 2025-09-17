@@ -26,6 +26,16 @@
     letter-spacing: -0.2px;
 
 }
+.card__text--price{
+    margin-bottom: .9rem;
+}
+.card--price{
+    min-height: 220px;
+    width: 100%;
+    min-width: 200px;
+    align-items: end;
+}
+
 
 .card__img {
     background-size: 100% 100%;

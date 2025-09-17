@@ -45,6 +45,16 @@ module.exports = {
           'sass-loader', // Compiles Sass to CSS
         ],
       },
+      
+      {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader, // Извлечение CSS в отдельный файл
+          'css-loader',                 // Обработка импортов и URL
+          'postcss-loader',             // Дополнительная обработка (например, автопрефиксы)
+        ],
+      },
+
 
       // Подключаем шрифты (заменили file-loader на asset/resource для Webpack 5)
       {

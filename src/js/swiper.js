@@ -1,21 +1,56 @@
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
+// Импортируем Swiper и нужные модули (если используются)
+import Swiper from 'swiper'
+import { Navigation, Pagination } from 'swiper/modules'
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+// Импортируем стили Swiper
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+// Инициализация слайдера
+export default function initSwiper(val) {
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
+  const container = document.querySelector(`.swiper--${val}`)
+
+  if (!container) return null
+
+  // Удаление старого Swiper (если существует)
+  if (container.swiper) {
+    container.swiper.destroy(true, true)
+  }
+
+  switch (val) {
+    case 'brand': {
+      return new Swiper(container, {
+        modules: [Navigation, Pagination],
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true
+        }
+      })
+    }
+    case 'service': {
+      return new Swiper(container, {
+        modules: [Navigation, Pagination],
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true
+        }
+      })
+    }
+  
+    case 'price': {
+      return new Swiper(container, {
+        modules: [Navigation, Pagination],
+        loop: true,
+        
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true
+        }
+      })
+    }
+  }
+}
