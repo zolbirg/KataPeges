@@ -1,0 +1,47 @@
+.brand__block {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 20px 0;
+
+}
+
+@media (max-width: 767px) {
+    .brand__block {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .swiper--brand {
+        width: 90%;
+        max-width: 400px;
+    }
+    .brand > button{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    
+
+    .brand__block {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card:nth-child(1n+7) {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .brand__block {
+         display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+
+}
