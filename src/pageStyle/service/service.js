@@ -76,20 +76,20 @@ const service__block = document.querySelector('.service__block')
 
 let mySwiper = null
 
-// Функция для проверки и добавления контента
+// функция для проверки и добавления контента
 function addContentAtWidth() {
   if (mySwiper) {
     mySwiper.destroy(true, true)
     mySwiper = null
   }
-  // Очищаем контейнер перед добавлением
+  // очищаем контейнер перед добавлением
   service__block.innerHTML = ''
 
-  // Проверяем ширину viewport
+  // проверяем ширину viewport
   if (window.innerWidth <= 767) {
     service__block.innerHTML = Service320px
 
-    // Инициализируем swiper--service
+    // инициализируем swiper--service
     const container = document.querySelector('.swiper--service')
     if (container) {
       import('../../js/swiper.js').then(({ default: initSwiper }) => {
@@ -101,8 +101,18 @@ function addContentAtWidth() {
   }
 }
 
-// Запускаем при загрузке страницы
+// запускаем при загрузке страницы
 addContentAtWidth()
 
-// Запускаем при изменении размера окна
+// запускаем при изменении размера окна
 window.addEventListener('resize', addContentAtWidth)
+
+
+// изменение контента при нажитии на кнопку показать все
+const showAllBtn = document.querySelector('.service > button');
+if (showAllBtn) {
+  showAllBtn.addEventListener('click', () => {
+    service__block.classList.toggle('show-all');
+    showAllBtn.textContent = service__block.classList.contains('show-all') ? 'Скрыть' : 'Показать все';
+  });
+}

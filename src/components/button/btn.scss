@@ -178,3 +178,12 @@ transition: transform 0.2s ease;
     color: var(--text-color-black);
 
 }
+/* скролл */
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal__content {
+  max-height: 60vh;
+  overflow-y: auto;
+}

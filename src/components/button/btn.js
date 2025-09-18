@@ -26,9 +26,28 @@ document.querySelectorAll('[data-action]').forEach(element => {
   });
 });
 
-// Логика для модального окна
+// Закрытие модального окна при клике на overlay
+const modalLayout = modal.querySelector('.modal__layout');
+modalLayout.addEventListener('click', (e) => {
+  if (e.target === modalLayout) {
+    modalIsActive(); // Вызов функции закрытия
+  }
+});
+
+
+
+// логика для модального окна
 function modalIsActive(value) {
-  if (value === "rep") {
+
+// добавляем/удаляем класс для блокировки скролла
+  if (value === "message" || value === "call") {
+    document.body.classList.add("no-scroll");
+  } else {
+    document.body.classList.remove("no-scroll");
+  }
+  
+// основная логика для модального окна
+  if (value === "message") {
     modal.classList.add("open");
     modal.classList.remove("close");
 

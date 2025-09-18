@@ -145,3 +145,12 @@ addContentAtWidth()
 
 // Запускаем при изменении размера окна
 window.addEventListener('resize', addContentAtWidth)
+
+// изменение контента при нажитии на кнопку показать все
+const showAllBtn = document.querySelector('.brand > button');
+if (showAllBtn) {
+  showAllBtn.addEventListener('click', () => {
+    brand__block.classList.toggle('show-all');
+    showAllBtn.textContent = brand__block.classList.contains('show-all') ? 'Скрыть' : 'Показать все';
+  });
+}

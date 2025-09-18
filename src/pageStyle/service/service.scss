@@ -5,7 +5,9 @@
     gap: 15px;
     padding: 20px 0;
 }
-
+.service__block.show-all .card--service:nth-child(1n+4) {
+  display: flex;
+}
 
 @media (max-width: 767px) {
     .service__block  {
@@ -36,7 +38,9 @@
 
 @media (min-width: 1440px) {
        
-    
+    .service > button{
+        display: none;
+    }
 }
     
 
