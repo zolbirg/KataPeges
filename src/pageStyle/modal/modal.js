@@ -21,9 +21,9 @@ export function modalIsActive(value) {
     content.innerHTML = `
       <div class="modal__feedback">
       <form class="modal__form" action="#" method="get" >
-        <input class="input input--custom" type="text" placeholder="Имя" required>
-        <input class="input input--custom" type="text" placeholder="Телефон" required>
-        <input class="input input--custom" type="text" placeholder="Электронная почта" required>
+        <input class="input input--custom" type="text" name="name" placeholder="Имя" required>
+        <input class="input input--custom" type="text" name="phone" placeholder="Телефон" required>
+        <input class="input input--custom" type="text" name="mail" placeholder="Электронная почта" required>
         <textarea class="input input--custom" placeholder="Сообщение" cols="10" rows="10" maxlength="500" required></textarea>
       </form>
       </div>
@@ -39,7 +39,7 @@ export function modalIsActive(value) {
     content.innerHTML = `
       <div class="modal__call">
        <form class="modal__form" action="#" method="get" >
-        <input class="input input--custom" type="text" placeholder="Телефон" required>
+        <input class="input input--custom" type="text"  name="name" placeholder="Телефон" required>
         </form>
       </div>
     `;
