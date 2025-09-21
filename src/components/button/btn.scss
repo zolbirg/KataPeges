@@ -1,15 +1,13 @@
 
 .btn:hover{
 transition: transform 0.2s ease;
- transform: scale(110%);
+transform: scale(110%);
 }
+
 .btn--ml {
     margin-left: 1rem;
 }
 
-.btn--mr {
-    margin-right: 1rem;
-}
 
 .btn__img {
     width: 7px;
@@ -18,11 +16,43 @@ transition: transform 0.2s ease;
     background-position: center center;
 
 }
-
-/* arrow */
-.btn__img--arrowPink {
-    background-image: url("../../img/icon/arrowPink.png");
+/* burger */
+.btn--burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: var(--color-Pink);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
 }
+
+.btn__line--burger {
+    height: 2px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.btn__line--line1 {
+    width: 18px;
+    margin-bottom: 5px;
+}
+
+.btn__line--line2 {
+    width: 10px;
+    margin-bottom: 5px;
+}
+
+.btn__line--line3 {
+    width: 14px;
+}
+
+
+/* Кнопка больше с стрелочкой */
+
 
 .btn--arrow {
     display: flex;
@@ -44,15 +74,27 @@ transition: transform 0.2s ease;
     background-image: url("../../img/icon/arrowGreen.png")
 }
 
-/* circle */
-.btn--circle {
+/* кнопки круги и овалы*/
+.btn--circle-pink {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
+    background: var(--color-Pink);
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 1rem;
 }
-
-.btn--oval {
-    border-radius: 3rem;
+.btn--circle-white{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: .6rem;
+    margin-right: 1rem;
+    border: 2px solid var(--color-Pink);
 }
 
 .btn--oval-arrow{
@@ -68,7 +110,8 @@ transition: transform 0.2s ease;
     text-align: left;
     text-transform: uppercase;
     color: white;
-
+    border-radius: 3rem;
+    background: var(--color-Pink);
 }
 
 .btn--oval-arrow::after {
@@ -82,25 +125,11 @@ transition: transform 0.2s ease;
     background-image: url("../../img/icon/arrowWhite.png")
 }
 
-.btn--pink {
-    background: var(--color-Pink);
-}
 
-.btn--bdr-pink {
-    border: 2px solid var(--color-Pink);
-}
+//img
 
-.btn--bg {
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.btn--bg-size--m {
-    background-size: 1.2rem;
-}
-
-.btn--bg-size--s {
-    background-size: .6rem;
+.btn__img--arrowPink {
+    background-image: url("../../img/icon/arrowPink.png");
 }
 
 .btn--call {
@@ -135,55 +164,6 @@ transition: transform 0.2s ease;
 
 
 
-/* burger */
-.btn--burger {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    background-color: var(--color-Pink);
-}
-
-.btn__line--burger {
-    height: 2px;
-    margin-left: 10px;
-    background-color: white;
-    border-radius: 2px;
-}
-
-.btn__line--line1 {
-    width: 18px;
-    margin-bottom: 5px;
-}
-
-.btn__line--line2 {
-    width: 10px;
-    margin-bottom: 5px;
-}
-
-.btn__line--line3 {
-    width: 14px;
-}
 
 
-/* about */
 
-.btn--theme-about {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    font-family: var(--text-Medium);
-    font-weight: 500;
-    font-size: 1rem;
-    color: var(--text-color-black);
-
-}
-/* скролл */
-.no-scroll {
-  overflow: hidden;
-}
-
-.modal__content {
-  max-height: 60vh;
-  overflow-y: auto;
-}

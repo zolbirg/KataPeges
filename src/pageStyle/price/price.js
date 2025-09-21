@@ -27,7 +27,7 @@ const Price320px = `
 
             </div>
 
-            <button class=" btn btn--pink btn--oval btn--oval-arrow">Заказать</button>
+            <button class=" btn btn--oval-arrow">Заказать</button>
               </div>
             </div>
 
@@ -55,7 +55,7 @@ const Price320px = `
 
             </div>
 
-            <button class=" btn btn--pink btn--oval btn--oval-arrow">Заказать</button>
+            <button class=" btn btn--oval-arrow">Заказать</button>
               </div>
             </div>
 
@@ -83,7 +83,7 @@ const Price320px = `
 
             </div>
 
-            <button class=" btn btn--pink btn--oval btn--oval-arrow">Заказать</button>
+            <button class=" btn btn--oval-arrow">Заказать</button>
               </div>
             </div>
 
@@ -111,7 +111,7 @@ const Price320px = `
 
             </div>
 
-            <button class=" btn btn--pink btn--oval btn--oval-arrow">Заказать</button>
+            <button class=" btn btn--oval-arrow">Заказать</button>
               </div>
             </div>
 
@@ -145,7 +145,7 @@ const Price720px = `
               <td class="table__price">Бесплатно</td>
               <td class="table__date">30 мин</td>
               <td class="table__btn">
-                <button class=" btn btn--pink btn--oval btn--oval-arrow">Заказать</button>
+                <button class=" btn btn--oval-arrow">Заказать</button>
               </td>
             </tr>
             <tr class="table__row">
@@ -153,7 +153,7 @@ const Price720px = `
               <td class="table__price">1 000 ₽</td>
               <td class="table__date">30-120 мин</td>
               <td class="table__btn">
-                 <button class=" btn btn--pink btn--oval btn--oval-arrow">Заказать</button>
+                 <button class=" btn btn--oval-arrow">Заказать</button>
               </td>
             </tr>
             <tr class="table__row">
@@ -161,7 +161,7 @@ const Price720px = `
               <td class="table__price">1 000 ₽</td>
               <td class="table__date">30-120 мин</td>
               <td class="table__btn"> 
-                <button class=" btn btn--pink btn--oval btn--oval-arrow">Заказать</button>
+                <button class=" btn btn--oval-arrow">Заказать</button>
               </td>
             </tr>
             
@@ -179,7 +179,7 @@ const Price720px = `
               <td class="table__price">1 000 ₽</td>
               <td class="table__date">30-120 мин</td>
               <td class="table__btn"> 
-                <button class=" btn btn--pink btn--oval btn--oval-arrow">Заказать</button>
+                <button class=" btn  btn--oval-arrow">Заказать</button>
               </td>
             </tr>
 

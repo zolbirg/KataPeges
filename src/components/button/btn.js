@@ -1,6 +1,6 @@
+import { modalIsActive } from '../../pageStyle/modal/modal.js';
+import { sideMenuIsActive } from '../../pageStyle/sideMenu/sideMenu.js';
 
-const modal = document.querySelector('.modal');
-const sideMenu = document.querySelector('.side-menu');
 
 // Обработка событий через data-атрибуты
 document.querySelectorAll('[data-action]').forEach(element => {
@@ -26,70 +26,5 @@ document.querySelectorAll('[data-action]').forEach(element => {
   });
 });
 
-// Закрытие модального окна при клике на overlay
-const modalLayout = modal.querySelector('.modal__layout');
-modalLayout.addEventListener('click', (e) => {
-  if (e.target === modalLayout) {
-    modalIsActive(); // Вызов функции закрытия
-  }
-});
 
-
-
-// логика для модального окна
-function modalIsActive(value) {
-
-// добавляем/удаляем класс для блокировки скролла
-  if (value === "message" || value === "call") {
-    document.body.classList.add("no-scroll");
-  } else {
-    document.body.classList.remove("no-scroll");
-  }
-  
-// основная логика для модального окна
-  if (value === "message") {
-    modal.classList.add("open");
-    modal.classList.remove("close");
-
-    const title = document.querySelector('.title__text--modal');
-    const content = document.querySelector('.modal__content');
-
-    title.textContent = 'Обратная связь';
-    content.innerHTML = `
-      <div class="modal__feedback">
-        <input class="input input--custom" type="text" placeholder="Имя">
-        <input class="input input--custom" type="text" placeholder="Телефон">
-        <input class="input input--custom" type="text" placeholder="Электронная почта">
-        <textarea class="input input--custom" placeholder="Сообщение" cols="10" rows="10" maxlength="500" required></textarea>
-      </div>
-    `;
-  } else if (value === "call") {
-    modal.classList.add("open");
-    modal.classList.remove("close");
-
-    const title = document.querySelector('.title__text--modal');
-    const content = document.querySelector('.modal__content');
-
-    title.textContent = 'Заказать звонок';
-    content.innerHTML = `
-      <div class="modal__call">
-        <input class="input input--custom" type="text" placeholder="Телефон">
-      </div>
-    `;
-  } else {
-    modal.classList.add("close");
-    modal.classList.remove("open");
-  }
-}
-
-// Логика для сайд-меню
-function sideMenuIsActive(value) {
-  if (value) {
-    sideMenu.classList.add("open");
-    sideMenu.classList.remove("close");
-  } else {
-    sideMenu.classList.add("close");
-    sideMenu.classList.remove("open");
-  }
-}
 

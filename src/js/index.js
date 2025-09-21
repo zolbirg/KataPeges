@@ -4,6 +4,7 @@ import '../components/button/btn.js'
 import '../pageStyle/brand/brand.js'
 import '../pageStyle/service/service.js'
 import '../pageStyle/price/price.js'
+import '../pageStyle/modal/modal.js'
 import './swiper.js'
 
 // /* components */

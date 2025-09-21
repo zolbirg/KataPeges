@@ -6,54 +6,54 @@ const Brand320px = `
             <div class="swiper-slide">
               <div class="card">
                 <span class="card__img card__img--lenovo"></span>
-                <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                <button class="btn btn--circle-white btn--arrow-pink "></button>
               </div>
             </div>
 
             <div class="swiper-slide">
               <div class="card">
                 <span class="card__img card__img--samsung"></span>
-                <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                <button class="btn btn--circle-white btn--arrow-pink "></button>
               </div>
             </div>
 
             <div class="swiper-slide">
               <div class="card">
                 <span class="card__img card__img--apple"></span>
-                <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                <button class="btn btn--circle-white btn--arrow-pink "></button>
               </div>
             </div>
 
             <div class="swiper-slide">
               <div class="card">
                 <span class="card__img card__img--viewSonic"></span>
-                <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                <button class="btn btn--circle-white btn--arrow-pink "></button>
               </div>
             </div>
 
             <div class="swiper-slide">
               <div class="card">
                 <span class="card__img card__img--bosch"></span>
-                <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                <button class="btn btn--circle-white btn--arrow-pink "></button>
               </div>
             </div>
 
             <div class="swiper-slide">
               <div class="card">
                 <span class="card__img card__img--hp"></span>
-                <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                <button class="btn btn--circle-white btn--arrow-pink "></button>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="card">
                 <span class="card__img card__img--acer"></span>
-                <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                <button class="btn btn--circle-white btn--arrow-pink "></button>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="card">
                 <span class="card__img card__img--sony"></span>
-                <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                <button class="btn btn--circle-white btn--arrow-pink "></button>
               </div>
             </div>
 
@@ -70,42 +70,42 @@ const Brand320px = `
 const Brand720px = `
  <div class="card">
             <span class="card__img card__img--lenovo"></span>
-            <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+            <button class="btn btn--circle-white  btn--arrow-pink "></button>
           </div>
           <div class="card">
 
             <span class="card__img card__img--samsung"></span>
-            <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+            <button class="btn btn--circle-white btn--arrow-pink "></button>
           </div>
           <div class="card">
 
             <span class="card__img card__img--apple"></span>
-            <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+            <button class="btn btn--circle-white btn--arrow-pink "></button>
           </div>
           <div class="card">
 
             <span class="card__img card__img--viewSonic"></span>
-            <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+            <button class="btn btn--circle-white  btn--arrow-pink "></button>
           </div>
           <div class="card">
 
             <span class="card__img card__img--bosch"></span>
-            <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+            <button class="btn btn--circle-white btn--arrow-pink "></button>
           </div>
           <div class="card">
 
             <span class="card__img card__img--hp"></span>
-            <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+            <button class="btn btn--circle-white btn--arrow-pink "></button>
           </div>
           <div class="card">
 
             <span class="card__img card__img--acer"></span>
-            <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+            <button class="btn btn--circle-white btn--arrow-pink "></button>
           </div>
           <div class="card">
 
             <span class="card__img card__img--sony"></span>
-            <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+            <button class="btn btn--circle-white btn--arrow-pink "></button>
           </div> 
 
 

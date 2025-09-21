@@ -28,6 +28,15 @@
     padding: 1.5rem 0 1rem ;
     
 }
+.about__btn {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-family: var(--text-Medium);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-color-black);
+}
 
 
 

@@ -7,7 +7,7 @@ const Service320px = `
               <p class="card__text">
                 Ремонт ноутбуков
               </p>
-              <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+              <button class="btn btn--circle-white btn--arrow-pink "></button>
             </div>
             </div>
             <div class="swiper-slide">
@@ -15,7 +15,7 @@ const Service320px = `
               <p class="card__text">
                 Ремонт планшетов 
               </p>
-              <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+              <button class="btn btn--circle-white btn--arrow-pink "></button>
             </div>
             </div>
             <div class="swiper-slide">
@@ -23,7 +23,7 @@ const Service320px = `
               <p class="card__text">
                Ремонт ПК 
               </p>
-              <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+              <button class="btn btn--circle-white btn--arrow-pink "></button>
             </div>
             </div>
             <div class="swiper-slide">
@@ -31,7 +31,7 @@ const Service320px = `
               <p class="card__text">
                 Ремонт  мониторов 
               </p>
-              <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+              <button class="btn btn--circle-white btn--arrow-pink "></button>
             </div>
             </div>
             
@@ -48,25 +48,25 @@ const Service720px = `
               <p class="card__text">
                 Ремонт ноутбуков
               </p>
-              <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+              <button class="btn btn--circle-white btn--arrow-pink "></button>
             </div>
             <div class="card card--service">
               <p class="card__text">
                 Ремонт планшетов
               </p>
-              <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+              <button class="btn btn--circle-white btn--arrow-pink "></button>
             </div>
             <div class="card card--service">
               <p class="card__text">
                 Ремонт ПК
               </p>
-              <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+              <button class="btn btn--circle-white btn--arrow-pink "></button>
             </div>
             <div class="card card--service">
               <p class="card__text">
                 Ремонт  мониторов
               </p>
-              <button class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+              <button class="btn btn--circle-white btn--arrow-pink "></button>
             </div>
             
             

@@ -9,39 +9,12 @@
 </head>
 
 <body>
-  <div class="modal close">
-    <div class="modal__layout">
-      <div class="modal__body">
-        <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m  btn--exit" data-action="close-modal"></button>
-        <div class="modal__block">
-          <div class="modal__header">
-            <div class="title ">
-              <h2 class="title__text title__text--modal title__text--line"></h2>
-            </div>
-          </div>
-          <div class="modal__content">
-            <div class="modal__call">
-              <input class="input input--custom" type="text" placeholder="Телефон">
-            </div>
-          </div>
-          <article class="modal__text">
-            <p> Нажимая “отправить”, вы даете согласие на <a href="#"> обработку персональных данных</a> и
-              соглашаетесь с нашей
-              <a href="#">политикой конфиденциальности</a>
-            </p>
-          </article>
-          <button class="btn btn--pink btn--oval btn--oval-arrow">ОТПРАВИТЬ</button>
-        </div>
-
-      </div>
-    </div>
-  </div>
 
   <header class="header">
     <div class="header__layout">
       <div class="header__block">
 
-        <button class="btn btn--burger btn--circle btn--mr" data-action="open-side-menu">
+        <button class="btn btn--burger" data-action="open-side-menu">
           <span class="btn__line--burger  btn__line--line1"></span>
           <span class="btn__line--burger  btn__line--line2"></span>
           <span class="btn__line--burger  btn__line--line3"></span>
@@ -56,17 +29,15 @@
       </div>
       <div class="header__block">
         <div class="header__icon header__icon--left">
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr  btn--call "
-           data-action="open-modal" data-type="call"></button>
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--message "
-           data-action="open-modal" data-type="message"></button>
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--people "></button>
+          <button class="btn btn--circle-pink btn--call " data-action="open-modal" data-type="call"></button>
+          <button class="btn btn--circle-pink btn--message " data-action="open-modal" data-type="message"></button>
+          <button class="btn btn--circle-pink btn--people "></button>
         </div>
         <span class="header__separator header__separator--right"></span>
 
         <div class="header__icon header__icon--right">
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--repair "></button>
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--checkStatus"></button>
+          <button class="btn btn--circle-pink btn--repair "></button>
+          <button class="btn btn--circle-pink btn--checkStatus"></button>
         </div>
       </div>
     </div>
@@ -76,14 +47,13 @@
     <aside class="side-menu close">
       <div class="side-menu__layout">
         <div class="side-menu__block">
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m  btn--exit"
-            data-action="close-side-menu"></button>
+          <button class="btn btn--circle-pink  btn--exit" data-action="close-side-menu"></button>
           <div class="logo">
             <a href="#" class="logo__link">
               <img class="logo__image" src="./img/logo/logo.svg" alt="logo">
             </a>
           </div>
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr  btn--lupa "></button>
+          <button class="btn btn--circle-pink btn--lupa "></button>
         </div>
         <ul class="side-menu__list">
           <li class="side-menu__item">
@@ -128,23 +98,30 @@
           </li>
         </ul>
         <div class="side-menu__btn">
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr  btn--call "
-           data-action="open-modal" data-type="call"></button>
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--message "
-           data-action="open-modal" data-type="message"></button>
-          <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--people "></button>
+          <button class="btn btn--circle-pink btn--call " data-action="open-modal" data-type="call"></button>
+          <button class="btn btn--circle-pink btn--message " data-action="open-modal" data-type="message"></button>
+          <button class="btn btn--circle-pink btn--people "></button>
         </div>
         <div class="side-menu__mail">
-          <a href="#">mail@cps.com</a>
+          <a href="mailto:mail@cps.com">mail@cps.com</a>
         </div>
         <div class="side-menu__phone">
-          <a href="#">8 800 890 8900</a>
+          <a href="tel:88008908900">8 800 890 8900</a>
 
         </div>
         <div class="side-menu__lang">
-          <button class="btn">RU</button>
-          <button class="btn">EN</button>
-          <button class="btn">CH</button>
+          <label class="side-menu__lang-label">
+           <input class="side-menu__lang-radio" type="radio" name="language" id="ru" checked />
+            RU
+          </label>
+          <label class="side-menu__lang-label">
+            <input class="side-menu__lang-radio" type="radio" name="language" id="en"  />
+            EN
+          </label>
+          <label class="side-menu__lang-label">
+            <input class="side-menu__lang-radio" type="radio" name="language" id="ch" />
+            CH
+          </label>
         </div>
       </div>
     </aside>
@@ -158,14 +135,12 @@
           </div>
 
           <div class="about__icon ">
-            <label class="btn btn--theme-about "> Оставить заявку
-              <button class="btn btn--ml btn--mr btn--circle btn--pink btn--bg btn--bg-size--m btn--repair"
-               ></button>
+            <label class="about__btn"> Оставить заявку
+              <button class="btn btn--circle-pink btn--ml  btn--repair"></button>
             </label>
 
-            <label class="btn btn--theme-about"> Статус ремонта
-              <button class="btn btn--ml  btn--circle btn--pink btn--bg btn--bg-size--m btn--checkStatus"
-               ></button>
+            <label class="about__btn"> Статус ремонта
+              <button class="btn btn--circle-pink btn--ml  btn--checkStatus"></button>
             </label>
           </div>
         </div>
@@ -233,7 +208,7 @@
         <div class="brand__block ">
 
         </div>
-        <button class="btn btn--arrow btn--mb-m">
+        <button class="btn btn--arrow ">
           Показать все
         </button>
 
@@ -250,7 +225,7 @@
         <div class="service__block ">
 
         </div>
-        <button class="btn btn--arrow btn--mb-m">
+        <button class="btn btn--arrow ">
           Показать все
         </button>
 
@@ -273,9 +248,10 @@
         </article>
         <a class="price__link" href="#">Получить коммерческое предложение</a>
       </section>
-    
+
     </div>
   </main>
+
   <footer>
     <div class="footer__layout">
 
@@ -298,6 +274,33 @@
     </div>
   </footer>
 
+  <div class="modal close">
+    <div class="modal__layout">
+      <div class="modal__body">
+        <button class="btn btn--circle-pink btn--exit" data-action="close-modal"></button>
+        <div class="modal__block">
+          <div class="modal__header">
+            <div class="title ">
+              <h2 class="title__text title__text--modal title__text--line"></h2>
+            </div>
+          </div>
+          <div class="modal__content">
+            <div class="modal__call">
+              <input class="input input--custom" type="text" placeholder="Телефон">
+            </div>
+          </div>
+          <article class="modal__text">
+            <p> Нажимая “отправить”, вы даете согласие на <a href="#"> обработку персональных данных</a> и
+              соглашаетесь с нашей
+              <a href="#">политикой конфиденциальности</a>
+            </p>
+          </article>
+          <button class="btn btn--oval-arrow">ОТПРАВИТЬ</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
